@@ -1,7 +1,20 @@
 * {
-    background-color: #ACC8E5;
-    color: #112A46;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #112A46;
+}
+
+body {
+    background-color: #112A46;
+}
+
+.card {
+    background-color: #ACC8E5;
+    color: #ACC8E5;
+    margin: 10px;
+    border: #00008b solid 2px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px black;
+    padding: 10px;
 }
 
 h1 {
@@ -17,4 +30,17 @@ img {
     margin-right: auto;
     border-radius: 8px;
     max-width: 25%;
+}
+
+a {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    background-color: #00008b;
+    border-radius: 8px;
+    color: white;
+}
+
+.links {
+    text-align: center;
 }
