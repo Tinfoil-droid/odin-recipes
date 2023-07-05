@@ -5,21 +5,30 @@
 }
 
 .odin {
-    font-family: 'Norse', sans-serif;
-    font-size: 20px;
     text-align: center;
+}
+
+.card {
+    margin: 10px;
+    border: #00008b solid 2px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px #0101ff;
+    padding: 10px;
 }
 
 .odin a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
     text-decoration: none;
-    color: rgb(153, 130, 1);
+    color: #554800;
 }
 
 .trashcan-title h1 {
-    font-family: 'Allerta Stencil', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 48px;
     text-align: center;
     color: #00008b;
+    margin: 10px auto;
 }
 
 h3 {
@@ -33,8 +42,7 @@ h3 {
 
 .trash-desc img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     border-radius: 8px;
     max-width: 25%;
 }
@@ -46,4 +54,17 @@ h3 {
 .links ul {
     text-align: center;
     list-style: none;
+}
+
+.links li {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    background-color: #00008b;
+    border-radius: 8px;
+}
+
+.links a {
+    background-color: #00008b;
+    color: white;
 }
