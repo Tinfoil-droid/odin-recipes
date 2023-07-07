@@ -57,7 +57,7 @@ h3 {
     border-radius: 8px;
     width: 100%;
     max-width: 400px;
-    height: auto;
+    min-width: auto;
 }
 
 .container figcaption {
@@ -86,9 +86,9 @@ h3 {
     padding: 0 2rem;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1200px) {
     .container {
-        flex-direction: column;
+        flex-wrap: wrap;
     }
     .trash-desc p {
         padding: 0;
