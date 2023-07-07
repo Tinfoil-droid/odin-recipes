@@ -10,7 +10,8 @@ body {
 .card {
     background-color: #ACC8E5;
     color: #ACC8E5;
-    margin: 10px;
+    margin: 0 auto;
+    max-width: 50%;
     border: #00008b solid 2px;
     border-radius: 8px;
     box-shadow: 5px 5px 5px black;
@@ -29,7 +30,16 @@ img {
     margin-left: auto;
     margin-right: auto;
     border-radius: 8px;
-    max-width: 25%;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2ch;
+    text-align: left;
+    padding: 0 1.5rem;
 }
 
 a {
