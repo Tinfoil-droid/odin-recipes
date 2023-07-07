@@ -58,3 +58,9 @@ a {
 .surprise {
     text-align: center;
 }
+
+@media screen and (max-width: 800px) {
+    .card {
+        max-width: 100%;
+    }
+}
