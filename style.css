@@ -13,46 +13,47 @@ body {
 
 .card {
     background-color: #ACC8E5;
-    color: #ACC8E5;
-    margin: 10px;
+    margin: 1rem;
     border: #00008b solid 2px;
     border-radius: 8px;
     box-shadow: 5px 5px 5px black;
-    padding: 10px;
+    padding: 1rem;
 }
 
 .odin a {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 3ch;
     text-decoration: none;
     color: goldenrod;
 }
 
 .trashcan-title h1 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 48px;
+    font-size: 8ch;
     text-align: center;
     color: #00008b;
     margin: 10px auto;
 }
 
 h3 {
-    text-align: left;
+    text-align: center;
 }
 
 .trash-desc p {
     text-align: left;
+    font-size: 2ch;
+    padding: 0 2rem;
     font-weight: bold;
 }
 
 .container {
     display: flex;
+    flex: 1;
     align-items: center;
     justify-content: center;
 }
 
 .trash-desc img {
-    margin: 0 auto;
     border-radius: 8px;
     width: 100%;
     max-width: 400px;
@@ -79,4 +80,20 @@ h3 {
 .links a {
     background-color: #00008b;
     color: white;
+}
+
+.disclaimer {
+    padding: 0 2rem;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+    .trash-desc p {
+        padding: 0;
+    }
+    .disclaimer {
+        padding: 0;
+    }
 }
